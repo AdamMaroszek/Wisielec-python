@@ -5,7 +5,7 @@ print("Witaj w świecie wisielca! Podaj swój nick:")
 pseudonim = input()
 
 #lista haseł
-lista = ['sekret', 'tunczyk', 'brokul', 'kicia', 'James']
+lista = ['sekret', 'tunczyk', 'brokul', 'kicia', 'James', 'Tarantula']
 
 #hasło
 haslo = str(lista[random.randint(0, len(lista)-1)])
